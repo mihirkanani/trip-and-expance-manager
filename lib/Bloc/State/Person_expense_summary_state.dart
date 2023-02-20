@@ -1,0 +1,8 @@
+abstract class PersonExpenseSummaryState {}
+
+class PersonExpenseSummaryInitialState extends PersonExpenseSummaryState {}
+
+class PersonExpenseSummaryEmptyState extends PersonExpenseSummaryState{}
+class PersonExpenseSummaryDataLoading extends PersonExpenseSummaryState{}
+class PersonExpenseSummaryDataLoaded extends PersonExpenseSummaryState{}
+class GetDataLoadState extends PersonExpenseSummaryState{}

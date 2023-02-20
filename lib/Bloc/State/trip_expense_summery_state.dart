@@ -1,0 +1,7 @@
+abstract class TripExpenseSummeryState {}
+
+class TripExpenseSummeryInitialState extends TripExpenseSummeryState {}
+class TripExpenseSummeryEmptyState extends TripExpenseSummeryState{}
+class TripExpenseSummeryDataLoading extends TripExpenseSummeryState{}
+class TripExpenseSummeryDataLoaded extends TripExpenseSummeryState{}
+class GetDataLoadState extends TripExpenseSummeryState{}
