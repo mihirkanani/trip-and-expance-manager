@@ -1,4 +1,4 @@
-# expense_manager
+# trip_and_expense_manager
 
 A new Flutter project.
 
